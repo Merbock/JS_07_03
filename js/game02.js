@@ -16,13 +16,9 @@ for (let i = min; (i >= min && i <= max); i++) {
 
 const gameBotHard = () => {
 
-    if (min >= 50 && max <= 100 ) {
-        countAttempt = 15;
-    } else {
-        range.forEach(() => {
-            countAttempt = Math.floor(range.length * 0.3);
-        })
-    }
+    range.forEach(() => {
+        countAttempt = Math.floor(range.length * 0.3);
+    })
 
     while (true) {
 
